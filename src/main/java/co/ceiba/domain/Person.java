@@ -16,6 +16,7 @@ public class Person {
 	 */
 
 	public Person() {
+		//empty constructor
 	}
 
 	/**
