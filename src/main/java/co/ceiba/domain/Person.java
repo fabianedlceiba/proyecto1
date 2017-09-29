@@ -9,7 +9,7 @@ package co.ceiba.domain;
 public class Person {
 	
 	private String name;
-	private String lastName
+	private String lastName;
 
 	/**
 	 * Constructor de la clase
