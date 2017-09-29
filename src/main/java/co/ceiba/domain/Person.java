@@ -3,28 +3,32 @@ package co.ceiba.domain;
 /**
  * Clase Persona
  * 
- * @author dilson.escobar
+ * @author Fabian Diaz
  * @version 1.0
  */
 public class Person {
+	
 	private String name;
 	private String lastName;
-	
+
 	/**
 	 * Constructor de la clase
 	 */
-	
-	public Person() {}	
+
+	public Person() {
+	}
 
 	/**
 	 * Constructor parametrizado
 	 * 
-	 * @param name Nombre de la persona
-	 * @param lastName Apellido de la persona
+	 * @param name
+	 *            Nombre de la persona
+	 * @param lastName
+	 *            Apellido de la persona
 	 */
 	public Person(String name, String lastName) {
 		this.name = name;
-		this.lastName = lastName;	
+		this.lastName = lastName;
 	}
 
 	public String getName() {
